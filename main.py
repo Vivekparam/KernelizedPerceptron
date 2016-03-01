@@ -29,7 +29,7 @@ def exponentialKernel(u, v):
 
     window_size = 10
 
-    power = - magnitude / (2 * window_size)
+    power = - magnitude / (2 * window_size **2)
     # print "Mag:",magnitude,"power",power
     return exp(power)
 
